@@ -1,0 +1,15 @@
+ERROR:root:[Errno 2] No such file or directory: 'emp.txt'
+Traceback (most recent call last):
+  File "C:\Users\Nitish\AppData\Local\Temp\ipykernel_1184\1967117632.py", line 12, in <module>
+    f = open("emp.txt", "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'emp.txt'
+ERROR:root:list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Nitish\AppData\Local\Temp\ipykernel_1184\2545860011.py", line 15, in <module>
+    print("List => ", myList[10])
+IndexError: list index out of range
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\Nitish\AppData\Local\Temp\ipykernel_1184\2200767585.py", line 21, in <module>
+    print( "Division :: ", num1 / num2 )
+ZeroDivisionError: division by zero
